@@ -1,0 +1,9 @@
+CREATE TABLE orders (
+	order_id SERIAL,
+	user_number VARCHAR(32),
+	depart_city VARCHAR(32),
+	destinat_city VARCHAR(32),
+	depart_date VARCHAR(32),
+	value DECIMAL(32),
+	PRIMARY KEY (order_id)
+);
